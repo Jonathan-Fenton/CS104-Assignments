@@ -1,0 +1,20 @@
+.sample{
+    width: 700px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.WSJ:hover {
+    color: red;
+  }
+
+  .NYT:visited {
+   color: gray;
+  }
+
+  .USN:active {
+    color: orange;
+  }
