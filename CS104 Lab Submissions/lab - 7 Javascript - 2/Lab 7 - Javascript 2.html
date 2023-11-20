@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+
+            <button id="changeTextBtn"> By clicking this button, you can talk to Javascript </button>
+            <p id="displayText"> You said... </p>
+        
+            <script>
+                let changeTextBtn= document.getElementById("changeTextBtn")
+                let displayText= document.getElementById("displayText")
+        
+                changeTextBtn.addEventListener("click", function() {
+                    function changeText() {
+                        displayText.innerText = "Hello, JavaScript World!"
+                    }
+                    changeText()
+                })
+            </script>
+        
+        </body>
+    </body>
+</html>
